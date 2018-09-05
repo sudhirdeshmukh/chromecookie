@@ -1,0 +1,14 @@
+{
+    "name": "S - DEBUG",
+    "version": "1.0",
+    "description": "Debug your application with these cookies",
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+	"permissions": ["activeTab","declarativeContent","storage"],
+	"page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
